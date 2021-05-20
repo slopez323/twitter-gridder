@@ -8,7 +8,11 @@ Remember when we copied an Instragram profile using Flexbox? Those were good tim
 
 ## Goal
 
-<img src="assets/goal.png">
+<img src="assets/goal.png"/>
+
+**Note:** we'll simply use the `tweet.png` image for the whole featured tweet and the "New tweet" button
+
+<img src="assets/tweet.png"/>
 
 ## The Basics
 
@@ -22,6 +26,6 @@ We've screen-shotted just a ton of images for this one. Make sure before you try
 
 Again, getting exact margins is NOT our focus on this, only general layout using CSS Grid.
 
-You may end up with grids within grids. You could also do this one large grid.
+I'd reccomend creating three (or so) grids. One for the header, one for the body content, and one for the footer.
 
 Good luck!
