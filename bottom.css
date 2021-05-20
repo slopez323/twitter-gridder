@@ -1,0 +1,77 @@
+#app {
+  display: grid;
+  grid-template-rows: 20% 40% 10% 10% 10% 10%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas:
+  "hdr hdr hdr hdr"
+  "mid mid mid mid"
+  "foot foot foot foot"
+  "foot foot foot foot"
+  "foot foot foot foot"
+  "foot foot foot foot"
+  ; 
+  border: 1px solid gray;
+  width: 60%;
+  height: 100vh;
+}
+
+#footer{
+  grid-area: foot;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 15% 60% 25%; 
+  grid-template-areas: 
+  "twts tr media likes"
+  "tweet tweet tweet tweet"
+  "hm src bell dm"
+}
+
+#placeholder{
+  grid-area:plc;
+  border: 1px solid black;
+}
+
+#home {
+  grid-area: hm;
+  height: 15%;
+  margin-left: 15px;
+}
+
+#search {
+  grid-area: src;
+  height: 15%;
+}
+
+#bell {
+  grid-area: bell;
+  height: 15%;
+}
+
+#dm {
+  grid-area: dm;
+  height: 15%;
+}
+
+#tweet {
+  grid-area: tweet;
+  height: 60%;
+  width: auto;
+}
+
+
+#twts {
+  grid-area: twts;
+  color: blue;
+}
+
+#tr {
+  grid-area: tr;
+}
+
+#media {
+  grid-area: media;
+}
+
+#likes {
+  grid-area: likes;
+}
