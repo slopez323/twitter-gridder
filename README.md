@@ -8,7 +8,11 @@ Remember when we copied an Instragram profile using Flexbox? Those were good tim
 
 ## Goal
 
-<img src="assets/goal.png">
+<img src="assets/goal.png"/>
+
+**Note:** we'll simply use the `tweet.png` image for the whole featured tweet and the "New tweet" button
+
+<img src="assets/tweet.png"/>
 
 ## The Basics
 
