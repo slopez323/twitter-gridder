@@ -6,6 +6,10 @@ A CSS-Grid Exercise
 
 Remember when we copied an Instragram profile using Flexbox? Those were good times. Let's bring them back by doing the same thing, only with a Twitter profile and CSS Grid. I give you: Twitter Gridder.
 
+## Goal
+
+<img src="assets/goal.png">
+
 ## The Basics
 
 Using CSS Grid (no Flexbox!), you'll make a page that emulates the following mobile page:
