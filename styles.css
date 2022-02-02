@@ -34,8 +34,8 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #tweetcount{
-    color: darkgrey;
-    font-size: 12px;
+    color: dimgray;
+    font-size: 14px;
     margin:0;
 }
 
@@ -79,7 +79,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 #uname{
     font-size: 17px;
-    color: darkgrey;
+    color: dimgray;
     margin:0;
 }
 
@@ -124,6 +124,87 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
 }
 
+#following{
+    margin-bottom: 5px;
+}
+
 #following span{
-    color: darkgrey;
+    color: dimgray;
+}
+
+.tabs{
+    display: grid;
+    grid-template-columns: 20% 35% 25% 20% ;
+    grid-template-areas: 
+    "tab-1 tab-2 tab-3 tab-4";
+    font-size: 17px;
+    font-weight: bold;
+    color:dimgray;
+}
+
+.tabs p{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.tabs .active{
+    border-bottom: 2px solid #1DA1F2;
+}
+
+#tab-1{
+    grid-area: tab-1;
+    color:#1DA1F2;
+}
+
+#tab-2{
+    grid-area: tab-2;
+}
+
+#tab-3{
+    grid-area: tab-3;
+}
+
+#tab-4{
+    grid-area: tab-4;
+}
+
+.tweet img{
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "home search bell dm";
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+#home{
+    width: 25%;
+    grid-area: home;
+}
+
+#search{
+    width: 25%;
+    grid-area: search;
+}
+
+#bell{
+    width: 25%;
+    grid-area: bell;
+}
+
+#dm{
+    width: 25%;
+    grid-area: dm;
 }
